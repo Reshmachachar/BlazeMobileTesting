@@ -3,12 +3,10 @@
 <suite name="Suite">
 <listeners>
 		<listener class-name="Utils.ExtentListeners" />
-	</listeners>
+</listeners>
   <test name="Test">
     <classes>
-    
       <class name="TestCases.EMIcalculatorTest"/>
-      <class name="TestCases.EMIcalculatorTest1"/>
     </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->

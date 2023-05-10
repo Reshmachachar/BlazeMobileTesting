@@ -3,12 +3,11 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="TestCases.EMIcalculatorTest">
+      <class name="BaseTest.BrowserBaseTest2">
         <methods>
-          <include name="TC01_ExplorePoduct"/>
           <include name="AppiumTest"/>
         </methods>
-      </class> <!-- TestCases.EMIcalculatorTest -->
+      </class> <!-- BaseTest.BrowserBaseTest2 -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
